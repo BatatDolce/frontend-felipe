@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <style>
+        
+        body {
+            background-color: #c854ca; 
+            font-family: Arial, sans-serif;
+        }
+        .formulario {
+            background-color: #975ccb; 
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        
+        .botao {
+            background-color: #7532b8;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="formulario">
+        <h2 style="color: #ffffff; text-align: center;">Cadastro</h2>
+        
+        <form>
+            <label>Nome:</label>
+            <input type="text">
+
+            <label>Email:</label>
+            <input type="email">
+
+            <label>Senha:</label>
+            <input type="password">
+
+            <label>Escolha sua cor favorita:</label>
+            <input type="color" value="#1a202c">
+
+            <label>Idade:</label>
+            <input type="number">
+
+            <label>Envie um arquivo:</label>
+            <input type="file">
+
+            <label>Data de nascimento:</label>
+            <input type="date">
+
+            <label>Mensagem:</label>
+            <textarea placeholder="Escreva sua mensagem aqui..."></textarea>
+
+            <input type="submit" value="Enviar" class="botao">
+        </form>
+    </div>
+
+</body>
+</html>
